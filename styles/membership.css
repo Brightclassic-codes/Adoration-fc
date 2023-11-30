@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.section-membership {
+  font-family: "Satoshi";
+}
+
+.membership {
+  gap: 2rem;
+  align-items: start;
+}
+
+.membership-inner {
+  padding: 4.3rem 2.6rem;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.plan-price {
+  color: #000;
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.plan,
+.plan-price span,
+.plan-benefit-heading,
+.plan-benefit {
+  font-size: 1.4rem;
+}
+
+.plan {
+  color: #8c8c8c;
+  margin-bottom: 2.5rem;
+}
+
+.plan-benefit-heading {
+  color: #262626;
+  margin-bottom: 2rem;
+}
+
+.plan-benefit {
+  color: #595959;
+  margin-bottom: 3.6rem;
+}
+
+.plan-benefit-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.plan-benefit-list img {
+  width: 2rem;
+}
+
+.apply-button-free:link,
+.apply-button-free:visited,
+.apply-button-premium:link,
+.apply-button-premium:visited,
+.apply-button-gold:link,
+.apply-button-gold:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1.4rem 9rem;
+  border-radius: 3rem;
+}
+
+.apply-button-free {
+  background-color: #502ce0;
+}
+
+.apply-button-premium {
+  background-color: #43bf58;
+}
+
+.apply-button-gold {
+  background-color: #c5dc37;
+}
+
+.free {
+  color: #502ce0;
+}
+
+.premium {
+  color: #43bf58;
+}
+
+.gold {
+  color: #c5dc37;
+}

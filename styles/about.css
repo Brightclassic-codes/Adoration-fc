@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.about {
+  gap: 1.8rem;
+  font-family: "Satoshi";
+  font-size: 1.3rem;
+  color: #777;
+  font-weight: 400;
+}
+
+.our-goals {
+  border-right: 1px solid #999;
+  border-left: 1px solid #999;
+  padding: 0 1rem;
+}

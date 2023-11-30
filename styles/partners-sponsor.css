@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.heading-margin {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.partners-sponsors {
+  grid-template-columns: 1fr 1.7fr 1fr;
+}
+
+.partners-sponsors-inner {
+  grid-column: 2 / 3;
+  padding: 0 6rem;
+}
+
+.partners-sponsors-inner img {
+  height: 14rem;
+}
+
+.partners-sponsors-img {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 8rem;
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.history {
+  font-family: "Satoshi";
+  font-size: 1.3rem;
+  color: #777;
+  font-weight: 400;
+}
+
+.history-inner {
+  grid-column: 2 / 3;
+}

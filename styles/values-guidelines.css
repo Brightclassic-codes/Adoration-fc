@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.values-guidelines {
+  grid-template-columns: 1fr 1.7fr 1fr;
+  font-family: "Satoshi";
+  font-size: 1.3rem;
+  color: #777;
+  font-weight: 400;
+}
+
+.values-guidelines-text {
+  line-height: 1.6;
+}
+
+.values-guidelines-inner {
+  grid-column: 2 / 3;
+}
+
+.values-guidelines-list li {
+  list-style: disc;
+  margin-left: 2rem;
+  line-height: 1.6;
+}
