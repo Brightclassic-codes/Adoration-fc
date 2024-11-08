@@ -193,3 +193,274 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.section-news {
+  margin-top: 2rem;
+}
+
+.news-active {
+  color: #141414;
+  border-bottom: 2px solid #e02c2d;
+}
+
+.news-nav {
+  font-family: "Satoshi";
+  padding-left: 4.5rem;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  margin-bottom: 5rem;
+}
+
+.news-nav-inner {
+  grid-column: 2 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.news-nav-link:link,
+.news-nav-link:visited {
+  text-decoration: none;
+  color: #8c8c8c;
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+.news-body {
+  font-size: 1.4rem;
+  color: #454545;
+  margin-bottom: 2.6rem;
+  line-height: 1.6;
+}
+
+.news-details {
+  font-family: "Satoshi";
+}
+
+.news-date {
+  color: #8c8c8c;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.highlight-npfl-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.highlight-link:link,
+.highlight-link:visited,
+.npfl-link:link,
+.npfl-link:visited {
+  display: inline-block;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #1f1f1f;
+  padding: 0.8rem 1.3rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.news-heading {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.news-matches {
+  grid-template-columns: 0.75fr 1.3fr 0.77fr;
+  gap: 3rem;
+  /* align-items: start; */
+}
+
+.news-headlines {
+  grid-template-columns: 1.5fr 2.5fr;
+  /* align-items: center; */
+  height: 28rem;
+}
+
+.news-headlines-img {
+  height: 30rem;
+}
+
+.news-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.fixtures-inner {
+  font-family: "Satoshi";
+  box-shadow: 0 0 0.8rem 0.2rem rgba(34, 34, 34, 0.03);
+  padding: 2rem 2rem 3rem 2rem;
+  border-radius: 1.2rem;
+}
+
+.fixtures-inner-2 {
+  padding: 2.3rem 3rem 5.6rem 2.3rem;
+  /* height: 40rem; */
+}
+
+.fixtures-logo,
+.fixtures-logo-2 {
+  font-family: "Satoshi";
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.4rem;
+}
+
+.fixtures-logo-2 {
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
+}
+
+.fixtures-logo-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.vs {
+  color: #e02c2d;
+  font-size: 1.2rem;
+}
+
+.fixtures-details {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.fixtures-date,
+.fixtures-date-2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0.8rem;
+}
+
+.fixtures-date-2 {
+  font-size: 3rem;
+}
+
+.fixtures-day-time,
+.fixtures-day-time-2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1.6rem; */
+}
+
+.fixtures-day-time-2 {
+  font-size: 1.3rem;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.fixtures-container {
+  grid-column: 3 / 4;
+  grid-row: 1 / -4;
+}
+
+.dot {
+  color: #d9d9d9;
+  font-size: 2.4rem;
+}
+
+.away-small,
+.away-big {
+  background-color: #fceaea;
+  color: #e02c2d;
+  padding: 0.6rem 2.4rem;
+  border-radius: 2rem;
+}
+
+.away-big {
+  padding: 1.2rem 2.4rem;
+}
+
+.not-available-2:link,
+.not-available-2:visited {
+  background-color: #e02c2d;
+  color: #fff;
+  margin-left: 6rem;
+  padding: 1.3rem 5rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-radius: 4rem;
+}
+
+.count-down {
+  font-family: "Satoshi";
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: #f19e9e;
+}
+
+.count-down span {
+  color: #e02c2d;
+}
+
+.players {
+  font-family: "Satoshi";
+  gap: 2rem;
+}
+
+.players-inner {
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.8rem 0.2rem rgba(34, 34, 34, 0.08);
+  cursor: pointer;
+}
+
+.players-inner img {
+  width: 100%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.player-profile {
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  width: 100%;
+  line-height: 1.4;
+  font-weight: 400;
+  padding: 2rem 1.6rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.player-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.player-name,
+.player-position {
+  color: #fff;
+}
+
+.player-name {
+  font-size: 1.8rem;
+}
+
+.player-position,
+.player-number {
+  font-size: 1.4rem;
+}
+
+.player-number {
+  color: #d9d9d9;
+}

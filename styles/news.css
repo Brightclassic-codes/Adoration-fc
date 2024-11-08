@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.read-more:link,
+.read-more:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e02c2d;
+  font-size: 1.4rem;
+}
+
+.heading-secondary {
+  margin-bottom: 3rem;
+}

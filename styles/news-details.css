@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.events-story {
+  font-family: "Satoshi";
+  font-size: 1.4rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.6rem;
+}
+
+.events-story img {
+  width: 2rem;
+}
+
+.story {
+  color: #e02c2d;
+}
+
+.time-date {
+  font-family: "Satoshi";
+  font-size: 1.4rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.time-date div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.time-date img {
+  width: 2rem;
+}
+
+.comment:link,
+.comment:visited {
+  display: block;
+  font-family: "Satoshi";
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #e02c2d;
+  border: 1px solid #e02c2d;
+  border-radius: 2rem;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.favourite-comment-share {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.favourite-comment-share div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.favourite-comment-share img {
+  width: 2rem;
+}
+
+.news-matches {
+  grid-template-columns: 0.75fr 1fr 0.8fr;
+  gap: 3rem;
+  /* align-items: start; */
+}

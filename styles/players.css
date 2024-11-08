@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("satoshi-variable-webfont.woff2") format("woff2"),
+    url("satoshi-variable-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container-all {
+  position: relative;
+  font-family: "Satoshi";
+}
+
+.container h3 {
+  color: #f0f0f0;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.blur {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  background-color: lightgrey;
+}
+
+.players-active {
+  color: #141414;
+  border-bottom: 2px solid #e02c2d;
+}
+
+.players-nav {
+  padding-left: 4.5rem;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  margin-bottom: 5rem;
+}
+
+.players-nav-inner {
+  grid-column: 2 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.players-nav-link:link,
+.players-nav-link:visited {
+  text-decoration: none;
+  color: #8c8c8c;
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+.players-inner {
+}
+
+.player-data-1,
+.player-data-2,
+.player-data-3,
+.player-data-4,
+.player-data-5,
+.player-data-6,
+.player-data-7,
+.player-data-8,
+.player-data-9,
+.player-data-10,
+.player-data-11,
+.player-data-12,
+.player-data-13,
+.player-data-14,
+.player-data-15,
+.player-data-16,
+.player-data-17,
+.player-data-18,
+.player-data-19,
+.player-data-20,
+.player-data-21,
+.player-data-22,
+.player-data-23 {
+  background-color: #fff;
+  width: 60rem;
+  position: fixed;
+  top: 0.3rem;
+  left: 35rem;
+  padding: 2rem 2rem;
+  z-index: 100;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.player-data-show {
+  /* background-color: #fff;
+  width: 60rem;
+  position: absolute;
+  top: 10rem;
+  left: 35rem;
+  padding: 2rem 2rem;
+  z-index: 100;
+  border-radius: 2rem; */
+  /* z-index: 100; */
+  display: block;
+}
+
+.logo {
+  width: 7rem;
+  margin-left: 24rem;
+  margin-bottom: 2rem;
+}
+
+.player-data-inner {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.player-img-container {
+  width: 25rem;
+}
+
+.player-img-container img {
+  width: 100%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 1.4rem;
+}
+
+.player-data h3,
+.player-data-show h3 {
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.data-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  line-height: 2.4;
+  font-size: 1.4rem;
+}
+
+.data-value-1 {
+  margin-bottom: 3rem;
+}
+
+.data {
+  width: 10rem;
+  color: #000;
+}
+
+.value {
+  flex: 1;
+  font-weight: 400;
+  color: #8c8c8c;
+}
+
+.data-1 {
+  width: 0;
+  color: #e02c2d;
+}
+
+.player-data h4,
+.player-data-show h4 {
+  font-size: 2.4rem;
+  color: #1f1f1f;
+  margin-bottom: 2rem;
+}
+
+.biography {
+  color: #454545;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.position {
+  margin-top: 6rem;
+}
